@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="flex-style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <header id="app-header" class="flex-row content-vcenter space-30 content-space-between box">
+        <span onclick="MostrarMenu()" class="material-symbols-outlined">
+            menu
+        </span>
+        <h1>
+            Formulario
+        </h1>
+        <span class="material-symbols-outlined">
+            account_circle
+        </span>
+    </header>
+
+    <div class="conteudo grow">
+        <nav id="app-menu" class="flex-col box fit-width space-30 hidden">
+            <a href="" class="flex-row  gap-20 content-vcenter">
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+                <span>
+                    Home
+                </span>
+            </a>
+
+            <a href="" class="flex-row  gap-20 content-vcenter">
+                <span class="material-symbols-outlined">
+                    task_alt
+                </span>
+                <span>
+                    Tarefas
+                </span>
+            </a>
+
+            <a href="" class="flex-row  gap-20 content-vcenter">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+                <span>
+                    Configurações
+                </span>
+            </a>
+
+            <a href="" class="flex-row gap-20 content-vcenter">
+                <span class="material-symbols-outlined">
+                    logout
+                </span>
+                <span>
+                    Sair
+                </span>
+            </a>
+        </nav>
+    </div>
+</footer>
+<form action="/enviar" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <form action="/enviar" method="POST">
+        <label for="comentários e sugestões do trabalho avaliado">comentários e sugestões do trabalho avaliado</label>
+        <input type="text" id="comentários e sugestões do trabalho avaliado" name="comentários e sugestões do trabalho avaliado" required>
+        <form action="/enviar" method="POST">
+            <label for="comentários e sugestões da mostra de TCC´s">comentários e sugestões da mostra de TCC´s</label>
+            <input type="text" id="comentários e sugestões da mostra de TCC´s" name="comentários e sugestões da mostra de TCC´s" required>
+    
+
+
+
+    <input type="submit" value="Enviar">
+</form>
+    <footer id="app-footer" class="flex-row content-center box space-30">
+        <div>Feito Pelos Alunos do Técnico em informatica</div>
+    
+    
+</body>
+
+</html>

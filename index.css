@@ -1,0 +1,31 @@
+/* Header */
+#app-header .material-symbols-outlined{
+    font-size: 36px;
+}
+
+#app-header h1{
+    font-size: 125%;
+}
+
+#app-header{
+    z-index: 10;
+}
+
+/* Menu expandível */
+#app-menu{
+    border-radius: 0 0 20px 0px;
+}
+
+/* Menu expandível linhas */
+#app-menu a{
+    color: #444;
+    text-decoration: none;
+}
+
+#app-menu a:hover{
+    color: rgb(165, 165, 165);
+}
+
+.hidden{
+    display: none;
+}
